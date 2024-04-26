@@ -107,7 +107,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="30sp"
-            android:text="UpDate" />
+            android:text="UpDate"
+            android:onClick="update"/>
     </LinearLayout>
 
     <LinearLayout
@@ -122,7 +123,8 @@
             android:layout_weight="1"
             android:text="Delete"
             android:layout_marginRight="10sp"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:onClick="delete"/>
 
         <Button
             android:id="@+id/btnsearch"
