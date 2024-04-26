@@ -132,6 +132,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Search"
+            android:onClick="search"
             android:textSize="30sp" />
     </LinearLayout>
 
@@ -139,9 +140,15 @@
         android:id="@+id/txtTest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="banghi"
         android:textAlignment="center"
         android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtloi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp" />
 
     <ListView
         android:id="@+id/lv"
